@@ -1,0 +1,19 @@
+{
+  "name": "ticoauto-graphql",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^4.21.2",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.4",
+    "nodemon": "^3.1.14"
+  }
+}
